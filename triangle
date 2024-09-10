@@ -1,1 +1,21 @@
+#include<stdio.h>
 
+int main(){
+
+    int angle;
+    printf("Enter the the three angle of triangle", angle);
+    scanf("%d", &angle);
+
+    
+    if (angle == 180)
+    {
+        printf("%d\n triangle is formed ", angle);
+
+    }
+    else{
+        printf("%d\n not formed triangle",angle);
+    }
+
+    return 0;
+
+}
